@@ -156,7 +156,7 @@ button.button.add-to-wishlist {
 }
 .p_text {
   display: inline-block;
-  color: grey;
+  color: var(--color-fg);
   font-size: 22px;
   padding: 4px;
   font-family: "Bodoni Moda", serif;

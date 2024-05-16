@@ -175,7 +175,7 @@ p.p_text.sale:hover {
     position: relative;
   }
   .p_text {
-    color: grey;
+    color: var(--primary-color);
     font-size: 22px;
     padding: 4px;
     font-family: "Bodoni Moda", serif;

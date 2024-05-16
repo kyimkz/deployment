@@ -26,36 +26,6 @@ function move(e){
 
 
 
-gsap.from('.logo', {opacity: 0, duration: 1, delay: 1, y:10});
-gsap.from('.navbar .nav_item', {opacity: 0, duration: 1, delay: 1.1, y:30});
-gsap.from('.image_login', {opacity: 0, duration: 1, delay: 1, y:10});
-gsap.from('.function', {opacity: 0, duration: 1, delay: 1, y:10});
-gsap.from('.new_season', {opacity: 0, duration: 1, delay: 1, y:10});
-gsap.from('.links', {opacity: 0, duration: 1, delay: 1.8, y:10});
-gsap.from('.btn', {opacity: 0, duration: 1, delay: 1.8, y:10});
-gsap.from('.navbabba', {opacity: 0, duration: 1, delay: 1, y:10});
-gsap.from('#gen', {opacity:0, duration: 1, delay: 0.5, y:10});
-gsap.from('.gen_for_price', {opacity: 0, duration: 1, delay: 1, y:10});
-gsap.from('.afkfc', {opacity: 0, duration: 1, delay: 1, y:10});
-gsap.from('.delete-wishlist-product', {opacity: 0, duration: 1, delay: 1, y:10});
-gsap.from('.add-to-cart-btn', {opacity: 0, duration: 1, delay: 1, y:10});
-gsap.from('.djskadjc', {opacity: 0, duration: 1, delay: 1, y:10});
-
-gsap.from('.h1', {opacity: 0, duration: 1, delay: 1.9, y:30, stagger: 0.7});
-gsap.from('.h2', {opacity: 0, duration: 1, delay: 1.9, y:30, stagger: 0.7});
-gsap.from('.gen', {opacity: 0, duration: 1, delay: 1.9, y:30, stagger: 0.7});
-gsap.from('.body', {opacity: 0, duration: 1, delay: 1.9, y:30, stagger: 0.7});
-
-gsap.from('.title', {opacity: 0, duration: 1, delay: 0.6, y:30});
-gsap.from('.description', {opacity: 0, duration: 1, delay: 0.8, y:30});
-gsap.from('.image', {opacity: 0, duration: 1, delay: 1.6, y:30});
-
-
-gsap.from('.footer', {opacity: 0, duration: 1, delay: 1, y:10});
-gsap.from('.pages', {opacity: 0, duration: 1, delay: 1, y:10});
-gsap.from('.general', {opacity: 0, duration: 1, delay: 1, y:10});
-
-
 jQuery(window).on('scroll', function() {
   if(jQuery(window).scrollTop() > 50) {
       jQuery('#header_frame').css('background-color', 'var(--color-bg)');
@@ -65,9 +35,9 @@ jQuery(window).on('scroll', function() {
 });
 
 
-$(window).on("load",function(){
-  $(".loader-wrapper").fadeOut("slow");
-});
+// $(window).on("load",function(){
+//   $(".loader-wrapper").fadeOut("slow");
+// });
 
 
 

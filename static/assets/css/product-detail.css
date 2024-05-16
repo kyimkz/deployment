@@ -65,7 +65,7 @@ html{
 }
 .p_text {
   display: inline-block;
-  color: rgb(68, 66, 66);
+  color: var(--primary-color);
   font-size: 22px;
   padding: 4px;
   font-family: "Bodoni Moda", serif;
